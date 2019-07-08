@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+    <include file="$(find utl_nav)/launch/driver/uart.launch" />
+<include file="$(find utl_nav)/launch/driver/ydlidar.launch" />
+</launch>
