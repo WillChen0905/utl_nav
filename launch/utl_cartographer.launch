@@ -3,8 +3,8 @@
 <launch>
 		<include file="$(find utl_nav)/launch/utl_tf.launch" />
     <include file="$(find utl_nav)/launch/driver/uart.launch" />
-		<include file="$(find utl_nav)/launch/driver/ydlidar.launch" />
-		<!--include file="$(find utl_nav)/launch/driver/urg.launch" /-->
+		<!--include file="$(find utl_nav)/launch/driver/ydlidar.launch" /-->
+		<include file="$(find utl_nav)/launch/driver/urg.launch" />
 		<include file="$(find utl_nav)/launch/utl_key_teleop.launch" />
 		<!-- ODOMETRY -->
     <!--rf2o_Laser_Odometry>
