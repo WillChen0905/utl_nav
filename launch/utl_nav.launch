@@ -6,13 +6,13 @@
     
     
     <!-- TF setting -->
-    <include file="$(find utl_nav)/launch/utl_tf.launch" />
+    <include file="$(find utl_nav)/launch/utl_tf_2nd.launch" />
     
     
     <!-- Drivers -->
-    <!--include file="$(find utl_nav)/launch/driver/ydlidar.launch" />
-    <include file="$(find utl_nav)/launch/driver/uart.launch" /-->
-		<node pkg="uart_2nd" type="uart_2nd" name="uart_2nd" />
+    <!--include file="$(find utl_nav)/launch/driver/ydlidar.launch" /-->
+    <include file="$(find utl_nav)/launch/driver/uart.launch" />
+		<!--node pkg="uart_2nd" type="uart_2nd" name="uart_2nd" /-->
 		<include file="$(find utl_nav)/launch/driver/urg.launch" />
 
     
