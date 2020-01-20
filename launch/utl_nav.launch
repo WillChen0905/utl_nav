@@ -2,10 +2,10 @@
 
 <launch>   
     <!-- Map server -->
-    <node name="map_server" pkg="map_server" type="map_server" args="$(find utl_nav)/map/fac.yaml"/>
+    <node name="map_server" pkg="map_server" type="map_server" args="$(find utl_nav)/map/7ff.yaml"/>
         
     <!-- TF setting -->
-    <include file="$(find utl_nav)/launch/utl_tf.launch" />
+    <include file="$(find utl_nav)/launch/utl_tf_2nd.launch" />
 
     <!-- Drivers -->
     <!--include file="$(find utl_nav)/launch/driver/ydlidar.launch" /-->
