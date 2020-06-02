@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 
 <launch>
-    <!--node name="uart_jy901" pkg="uart_jy901" type="uart_jy901"/>
-    <node name="uart_stm32" pkg="uart_stm32" type="uart_stm32"/-->
-    <node name="uart_2nd" pkg="uart_2nd" type="uart_2nd"/>
+    <node name="uart_jy901" pkg="uart_jy901" type="uart_jy901"/>
+    <node name="uart_stm32" pkg="uart_stm32" type="uart_stm32"/>
 </launch>
